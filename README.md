@@ -14,3 +14,13 @@ New-Item -ItemType Directory -Force "$env:APPDATA\ICT App JSON Configurer"
 
 # Open the server.env file in Notepad (creates a new file if it doesn't exist)
 notepad "$env:APPDATA\ICT App JSON Configurer\server.env"
+```
+
+Use this template for server.env configuration:
+```text
+DB_USER=
+DB_PASSWORD=
+DB_SERVER=
+DB_DATABASE=
+DB_PORT=1433
+```
